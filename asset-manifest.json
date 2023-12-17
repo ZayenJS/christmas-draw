@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/christmas-draw/static/css/main.6f8f624e.css",
-    "main.js": "/christmas-draw/static/js/main.3810e5aa.js",
-    "static/js/787.c9f4de24.chunk.js": "/christmas-draw/static/js/787.c9f4de24.chunk.js",
+    "main.js": "/christmas-draw/static/js/main.880ff059.js",
+    "static/js/787.f6a5f227.chunk.js": "/christmas-draw/static/js/787.f6a5f227.chunk.js",
     "static/media/all-i-want.mp3": "/christmas-draw/static/media/all-i-want.8c9289fb792732ded994.mp3",
     "static/media/noel.jpg": "/christmas-draw/static/media/noel.f8be1886131fd8af9e4c.jpg",
     "static/media/MerryChristmasFlake.ttf": "/christmas-draw/static/media/MerryChristmasFlake.8c03b5157654364d2383.ttf",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/christmas-draw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/christmas-draw/index.html",
     "main.6f8f624e.css.map": "/christmas-draw/static/css/main.6f8f624e.css.map",
-    "main.3810e5aa.js.map": "/christmas-draw/static/js/main.3810e5aa.js.map",
-    "787.c9f4de24.chunk.js.map": "/christmas-draw/static/js/787.c9f4de24.chunk.js.map"
+    "main.880ff059.js.map": "/christmas-draw/static/js/main.880ff059.js.map",
+    "787.f6a5f227.chunk.js.map": "/christmas-draw/static/js/787.f6a5f227.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8f624e.css",
-    "static/js/main.3810e5aa.js"
+    "static/js/main.880ff059.js"
   ]
 }
