@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import '../logo.svg';
@@ -10,7 +10,6 @@ import volume from '../assets/images/sound.png';
 import mute from '../assets/images/mute.png';
 import santaHat from '../assets/images/santa-hat.png';
 import gifts from '../assets/images/gift.png';
-import candyCane from '../assets/images/candy-cane.png';
 import candyCanes from '../assets/images/candy-canes.png';
 
 export interface AppProps {}
@@ -144,8 +143,7 @@ const App: FC<AppProps> = () => {
           <span>
             Tirage au sort de{' '}
             <span>
-              Noël
-              <img src={santaHat} alt="" />
+              Noël <img src={santaHat} alt="" />
             </span>
           </span>
         </h1>

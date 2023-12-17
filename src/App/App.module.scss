@@ -5,7 +5,7 @@
   min-height: 100vh;
   font-family: sans-serif;
   display: grid;
-  grid-template-rows: 12rem auto;
+  grid-template-rows: var(--header-height) auto;
   grid-template-areas: 'header' 'main';
 
   &:before {
@@ -74,7 +74,7 @@
 
 header {
   grid-area: header;
-  height: 12rem;
+  height: var(--header-height);
 }
 
 main {

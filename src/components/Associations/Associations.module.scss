@@ -4,9 +4,12 @@
   @include flex(center, flex-start, column);
   overflow: auto;
   width: 100%;
-  margin-block: 2rem;
+  margin-block: 1rem;
+  max-height: calc(100vh - var(--header-height) - 10rem);
 
-  max-height: calc(100vh - 12rem - 10rem);
+  @include lg {
+    margin-block: 2rem;
+  }
 
   &.empty {
     margin: 0;

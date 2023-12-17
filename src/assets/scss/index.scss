@@ -1,5 +1,18 @@
 @import './reset';
 @import './fonts';
+@import 'mixins';
+
+:root {
+  --header-height: 10rem;
+
+  @include md {
+    --header-height: 11rem;
+  }
+
+  @include lg {
+    --header-height: 12rem;
+  }
+}
 
 #root {
   height: 100vh;
