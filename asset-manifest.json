@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/christmas-draw/static/css/main.93195771.css",
+    "main.css": "/christmas-draw/static/css/main.cea2919f.css",
     "main.js": "/christmas-draw/static/js/main.826e651d.js",
     "static/js/787.f6a5f227.chunk.js": "/christmas-draw/static/js/787.f6a5f227.chunk.js",
     "static/media/all-i-want.mp3": "/christmas-draw/static/media/all-i-want.8c9289fb792732ded994.mp3",
@@ -14,12 +14,12 @@
     "static/media/trash-bin.png": "/christmas-draw/static/media/trash-bin.3064958e440239dc1a1d.png",
     "static/media/logo.svg": "/christmas-draw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/christmas-draw/index.html",
-    "main.93195771.css.map": "/christmas-draw/static/css/main.93195771.css.map",
+    "main.cea2919f.css.map": "/christmas-draw/static/css/main.cea2919f.css.map",
     "main.826e651d.js.map": "/christmas-draw/static/js/main.826e651d.js.map",
     "787.f6a5f227.chunk.js.map": "/christmas-draw/static/js/787.f6a5f227.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93195771.css",
+    "static/css/main.cea2919f.css",
     "static/js/main.826e651d.js"
   ]
 }
