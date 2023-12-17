@@ -1,0 +1,14 @@
+@import '../../assets/scss/mixins';
+
+.container {
+  @include flex(center, flex-start, column);
+  overflow: auto;
+  width: 100%;
+  margin-block: 2rem;
+
+  max-height: calc(100vh - 12rem - 10rem);
+
+  &.empty {
+    margin: 0;
+  }
+}

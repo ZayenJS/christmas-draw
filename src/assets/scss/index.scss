@@ -1,1 +1,21 @@
-@import "./reset";
+@import './reset';
+@import './fonts';
+
+#root {
+  height: 100vh;
+  background-image: url('../images/noel.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgb(80, 179, 80), rgb(197, 69, 69));
+}

@@ -1,0 +1,48 @@
+@import '../../assets/scss/mixins';
+
+.container {
+  @include flex(flex-end, $gap: 1rem);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #fff;
+
+  > div {
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1.5rem;
+    width: 8rem;
+    resize: horizontal;
+    overflow: auto;
+    padding: 0.25rem 0;
+  }
+
+  input,
+  output {
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: transparent;
+  }
+
+  output {
+    transition: all 0.75s linear;
+    opacity: 0;
+  }
+
+  output:not(:empty) {
+    opacity: 1;
+  }
+}
+
+.delete_button {
+  @include flex(flex-end, center);
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  img {
+    width: 2rem;
+  }
+}

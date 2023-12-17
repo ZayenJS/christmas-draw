@@ -1,5 +1,116 @@
-// @import "path_to_file";
+@import '../assets/scss/mixins';
 
-.Container {
-  /* your styles here... */
+.container {
+  margin: auto;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-rows: 12rem auto;
+  grid-template-areas: 'header' 'main';
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+
+  h1 {
+    position: relative;
+    font-size: 7rem;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+
+    span {
+      display: inline-block;
+      font-family: 'MerryChristmasFlake', sans-serif;
+    }
+
+    img {
+      position: absolute;
+      top: -0rem;
+      right: -3.5rem;
+      width: 5rem;
+    }
+  }
+
+  > div {
+    @include flex(center, center, column, 2rem);
+  }
+
+  * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+header {
+  grid-area: header;
+  height: 12rem;
+}
+
+main {
+  grid-area: main;
+}
+
+.error {
+  color: rgb(229, 196, 196);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(234, 114, 114);
+  background-color: rgba(234, 114, 114, 0.25);
+  border-radius: 0.25rem;
+}
+
+.link_button {
+  @include flex(center, center, $gap: 1rem);
+  border: none;
+  background-image: linear-gradient(to right, rgb(51, 125, 51), rgb(150, 56, 56));
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-inline: auto;
+
+  img {
+    width: 2rem;
+  }
+}
+
+.draw_button {
+  @include flex(center, center, $gap: 1rem);
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 128, 0);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: auto;
+
+  &:disabled {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  img {
+    width: 3rem;
+  }
+}
+
+.sound {
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+  img {
+    width: 2rem;
+  }
 }
