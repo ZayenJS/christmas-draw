@@ -1,0 +1,16 @@
+{
+  "type": "react",
+  "importReact": false,
+  "typescript": true,
+  "styling": "scss",
+  "cssModules": true,
+  "componentType": "function",
+  "componentDir": "src/components",
+  "hooksDir": "src/hooks",
+  "pageDir": "src/pages",
+  "name": "secret-santa",
+  "interactive": false,
+  "router": false,
+  "redux": false,
+  "axios": false
+}
