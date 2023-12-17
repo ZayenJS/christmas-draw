@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/christmas-draw/static/css/main.6f8f624e.css",
+    "main.js": "/christmas-draw/static/js/main.3810e5aa.js",
+    "static/js/787.c9f4de24.chunk.js": "/christmas-draw/static/js/787.c9f4de24.chunk.js",
+    "static/media/all-i-want.mp3": "/christmas-draw/static/media/all-i-want.8c9289fb792732ded994.mp3",
+    "static/media/noel.jpg": "/christmas-draw/static/media/noel.f8be1886131fd8af9e4c.jpg",
+    "static/media/MerryChristmasFlake.ttf": "/christmas-draw/static/media/MerryChristmasFlake.8c03b5157654364d2383.ttf",
+    "static/media/candy-canes.png": "/christmas-draw/static/media/candy-canes.f41a9c1df7a10b332f14.png",
+    "static/media/MerryChristmasFlake.woff": "/christmas-draw/static/media/MerryChristmasFlake.f377414c76a3a3ba546c.woff",
+    "static/media/MerryChristmasFlake.woff2": "/christmas-draw/static/media/MerryChristmasFlake.8bc805c426811729b6ba.woff2",
+    "static/media/santa-hat.png": "/christmas-draw/static/media/santa-hat.30624b023fd07fb589c1.png",
+    "static/media/gift.png": "/christmas-draw/static/media/gift.19a86991be8ecfdd127a.png",
+    "static/media/trash-bin.png": "/christmas-draw/static/media/trash-bin.3064958e440239dc1a1d.png",
+    "static/media/logo.svg": "/christmas-draw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/christmas-draw/index.html",
+    "main.6f8f624e.css.map": "/christmas-draw/static/css/main.6f8f624e.css.map",
+    "main.3810e5aa.js.map": "/christmas-draw/static/js/main.3810e5aa.js.map",
+    "787.c9f4de24.chunk.js.map": "/christmas-draw/static/js/787.c9f4de24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f8f624e.css",
+    "static/js/main.3810e5aa.js"
+  ]
+}
