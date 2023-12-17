@@ -2,18 +2,26 @@
 
 .container {
   @include flex(flex-end, $gap: 1rem);
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 1rem;
   color: #fff;
+
+  @include lg {
+    font-size: 1.5rem;
+  }
 
   > div {
     border: none;
     border-bottom: 1px solid #fff;
     font-size: 1.5rem;
-    width: 8rem;
+    width: 5rem;
     resize: horizontal;
     overflow: auto;
     padding: 0.25rem 0;
+
+    @include md {
+      width: 8rem;
+    }
   }
 
   input,
@@ -21,8 +29,16 @@
     color: #fff;
     border: none;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: transparent;
+
+    @include md {
+      font-size: 1.25rem;
+    }
+
+    @include lg {
+      font-size: 1.5rem;
+    }
   }
 
   output {

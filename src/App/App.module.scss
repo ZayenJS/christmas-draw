@@ -20,21 +20,45 @@
 
   h1 {
     position: relative;
-    font-size: 7rem;
+    font-size: 3rem;
     color: #fff;
     width: fit-content;
     margin: auto;
+    margin-top: 2rem;
+    padding-inline: 2rem;
+
+    @include md {
+      font-size: 5rem;
+    }
+
+    @include lg {
+      font-size: 7rem;
+      margin-top: 0;
+    }
 
     span {
+      text-align: center;
       display: inline-block;
       font-family: 'MerryChristmasFlake', sans-serif;
     }
 
     img {
       position: absolute;
-      top: -0rem;
-      right: -3.5rem;
-      width: 5rem;
+      top: 0;
+      right: -1.5rem;
+      width: 2rem;
+
+      @include md {
+        top: -0.5rem;
+        right: -2.5rem;
+        width: 3rem;
+      }
+
+      @include lg {
+        top: -0rem;
+        right: -3.5rem;
+        width: 5rem;
+      }
     }
   }
 
@@ -71,21 +95,37 @@ main {
   border: none;
   background-image: linear-gradient(to right, rgb(51, 125, 51), rgb(150, 56, 56));
   border-radius: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
   padding: 0.5rem;
   margin-top: 1rem;
   margin-inline: auto;
 
   img {
-    width: 2rem;
+    width: 1rem;
+  }
+
+  @include md {
+    font-size: 1.25rem;
+
+    img {
+      width: 1.5rem;
+    }
+  }
+
+  @include lg {
+    font-size: 1.5rem;
+
+    img {
+      width: 2rem;
+    }
   }
 }
 
 .draw_button {
   @include flex(center, center, $gap: 1rem);
   border: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 0.5rem;
   background-color: rgb(0, 128, 0);
@@ -93,13 +133,21 @@ main {
   padding: 0.5rem 1rem;
   margin: auto;
 
+  @include lg {
+    font-size: 1.5rem;
+  }
+
   &:disabled {
     background-color: rgba(255, 255, 255, 0.25);
     color: rgba(255, 255, 255, 0.5);
   }
 
   img {
-    width: 3rem;
+    width: 1.5rem;
+
+    @include lg {
+      width: 3rem;
+    }
   }
 }
 
@@ -107,10 +155,19 @@ main {
   background-color: transparent;
   border: none;
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 0;
 
   img {
-    width: 2rem;
+    width: 1.25rem;
+  }
+
+  @include md {
+    top: 1rem;
+    right: 1rem;
+
+    img {
+      width: 2rem;
+    }
   }
 }

@@ -141,8 +141,13 @@ const App: FC<AppProps> = () => {
           <img src={state.hasSound ? volume : mute} alt="" />
         </button>
         <h1>
-          <span>Tirage au sort de Noël</span>
-          <img src={santaHat} alt="" />
+          <span>
+            Tirage au sort de{' '}
+            <span>
+              Noël
+              <img src={santaHat} alt="" />
+            </span>
+          </span>
         </h1>
         {state.error && <div className={classes.error}>{state.error}</div>}
         <button className={classes.link_button} onClick={onAddLine}>
